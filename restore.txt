@@ -1,0 +1,20 @@
+Restaurar os projetos
+BackEnd
+- Acessar a pasta EtecBook.Server\EtecBookAPI
+    dotnet restore
+
+FrontEnd
+-  Acessar a pasta EtecBookUI
+     npm i 
+
+-- Ferramenta EntityFrameworkCore
+dotnet ef;
+
+dotnet tool install --global dotnet-ef
+
+dotnet ef migrations add <nome da migração>
+dotnet ef migrations add criar-banco
+
+dotnet ef database update
+
+na pasta controller criar uma apicontroller
